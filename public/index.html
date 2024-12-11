@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Modern To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app" class="todo-container">
+        <div class="todo-header">
+            <h1>My Tasks</h1>
+        </div>
+        <div class="todo-input">
+            <input type="text" placeholder="Add a new task" id="todo">
+            <select id="priority-select">
+                <option value="0">Low Priority</option>
+                <option value="1">Medium Priority</option>
+                <option value="2">High Priority</option>
+            </select>
+            <button>Add</button>
+        </div>
+        
+        <ul class="todo-list">
+            <!-- Dynamic task list will be added here -->
+        </ul>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
